@@ -1,3 +1,11 @@
+"""
+This program scrapes the Pervez Hoodbhoy columns from dawn.com website.
+It stores the column ids in an MySQL database. When a new column is published, the program
+sends a notification to email address.
+Assumptions: The machine has mail server like Postfix set up.
+Tested on: Ubuntu 20.04, Python 3.8.10
+"""
+
 from urllib.request import urlopen, Request
 from urllib.error import HTTPError, URLError
 from bs4 import BeautifulSoup
