@@ -4,3 +4,4 @@ A collection of Python scripts for sending notifications of newly published colu
 
 import dawn_pervezhoodbhoy
 import thequint_gulbukhari
+import dawn_zarrarkhuhro
